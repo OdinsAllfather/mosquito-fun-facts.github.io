@@ -10,19 +10,39 @@
             line-height: 1.6;
             margin: 0;
             padding: 20px;
+            background-color: #e6f0e2; /* Light green background */
+            color: #2c3e2d; /* Dark green text */
         }
-        h1, h2 {
-            color: #333;
+        h1, h2, h3 {
+            color: #1a4a1c; /* Deeper green for headers */
         }
         .dropdown {
             margin-bottom: 20px;
+            background-color: #c1d9bf; /* Soft green for dropdown sections */
+            padding: 10px;
+            border-radius: 5px;
         }
         .fill-in-blank {
             margin-top: 30px;
+            background-color: #d3e4d1; /* Another soft green for fill-in-blank sections */
+            padding: 10px;
+            border-radius: 5px;
         }
         input[type="text"] {
             width: 200px;
             padding: 5px;
+            border: 1px solid #5b8c5a; /* Green border for input fields */
+            background-color: #f0f7ee; /* Very light green background for input fields */
+        }
+        select {
+            padding: 5px;
+            border: 1px solid #5b8c5a; /* Green border for dropdowns */
+            background-color: #f0f7ee; /* Very light green background for dropdowns */
+        }
+        p {
+            background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background for better readability */
+            padding: 10px;
+            border-radius: 5px;
         }
     </style>
 </head>
